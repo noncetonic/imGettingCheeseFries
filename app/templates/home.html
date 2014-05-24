@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<form method="post" action="/">
+  <label for="cheeseFries">Enter Your Command:</label>
+  <input type="text" name="cheeseFries" /><br />
+</form>
+<textarea readonly name="allCarbDiet" cols=80 rows=20>{{allCarbDiet}}</textarea>
+</div>
+{% endblock %}
